@@ -30,12 +30,12 @@ golden_records = test_data.select(
 document_ids = []
 
 for item in golden_records:
-    context_id = golden_records['context_id']
+    context_id = item['context_id']
     if context_id not in document_ids:
         document_ids.append(context_id)
 
 for item in test_data:
-    context_id = test_data['context_id']
+    context_id = item['context_id']
     if context_id not in document_ids:
         document_ids.append(context_id)
 
@@ -75,15 +75,74 @@ for item in test_data:
     }
 
 for document_id, document in documents.items():
-    print(document_id,document)
-    break
+    path = CORPUS_DIR / f"{document_id}.json"
 
-    # path = CORPUS_DIR / f"{document_id}.json"
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(
+            document,
+            f,
+            indent=2,
+            ensure_ascii=False
+        )
 
-    # with open(path, "w", encoding="utf-8") as f:
-    #     json.dump(
-    #         document,
-    #         f,
-    #         indent=2,
-    #         ensure_ascii=False
-    #     )
+# GOLDEN DATA
+
+golden_path = GOLDEN_DIR / "golden.jsonl"
+with open(golden_path, "w", encoding="utf-8") as f:
+
+    for item in golden_records:
+
+        golden_record = {
+            "question": item["question"],
+
+            # Ground truth
+            "reference_answer": item["original_answer"],
+
+            # Useful for retrieval evaluation
+            "relevant_document_id": item["context_id"],
+
+            # Numeric/reasoning answer
+            "program_answer": item.get("program_answer"),
+
+            # Financial metadata
+            "metadata": {
+                "dataset": "FinQA",
+                "company_name": item.get("company_name"),
+                "company_symbol": item.get("company_symbol"),
+                "report_year": item.get("report_year"),
+                "company_sector": item.get("company_sector"),
+                "company_industry": item.get("company_industry"),
+                "file_name": item.get("file_name"),
+                "page_number": item.get("page_number"),
+            }
+        }
+
+        f.write(
+            json.dumps(
+                golden_record,
+                ensure_ascii=False
+            ) + "\n"
+        )
+
+print("===================================")
+print(" DATASET CREATED")
+print("===================================")
+print(
+    "Documents:",
+    len(documents)
+)
+
+print(
+    "Golden questions:",
+    len(golden_records)
+)
+
+print(
+    "Corpus:",
+    CORPUS_DIR
+)
+
+print(
+    "Golden:",
+    golden_path
+)

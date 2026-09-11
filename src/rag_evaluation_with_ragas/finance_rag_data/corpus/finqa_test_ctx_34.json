@@ -1,0 +1,15 @@
+{
+  "document_id": "finqa_test_ctx_34",
+  "text": "6 .\nprincipal transactions citi 2019s principal transactions revenue consists of realized and unrealized gains and losses from trading activities .\ntrading activities include revenues from fixed income , equities , credit and commodities products and foreign exchange transactions that are managed on a portfolio basis characterized by primary risk .\nnot included in the table below is the impact of net interest revenue related to trading activities , which is an integral part of trading activities 2019 profitability .\nfor additional information regarding principal transactions revenue , see note a04 to the consolidated financial statements for information about net interest revenue related to trading activities .\nprincipal transactions include cva ( credit valuation adjustments on derivatives ) and fva ( funding valuation adjustments ) on over-the-counter derivatives .\nthese adjustments are discussed further in note 24 to the consolidated financial statements .\nthe following table presents principal transactions revenue: ._|    | in millions of dollars          | 2018   | 2017   | 2016   |\n|---:|:--------------------------------|:-------|:-------|:-------|\n|  0 | interest rate risks ( 1 )       | $ 5186 | $ 5301 | $ 4229 |\n|  1 | foreign exchange risks ( 2 )    | 1423   | 2435   | 1699   |\n|  2 | equity risks ( 3 )              | 1346   | 525    | 330    |\n|  3 | commodity and other risks ( 4 ) | 662    | 425    | 899    |\n|  4 | credit products and risks ( 5 ) | 445    | 789    | 700    |\n|  5 | total                           | $ 9062 | $ 9475 | $ 7857 |_( 1 ) includes revenues from government securities and corporate debt , municipal securities , mortgage securities and other debt instruments .\nalso includes spot and forward trading of currencies and exchange-traded and over-the-counter ( otc ) currency options , options on fixed income securities , interest rate swaps , currency swaps , swap options , caps and floors , financial futures , otc options and forward contracts on fixed income securities .\n( 2 ) includes revenues from foreign exchange spot , forward , option and swap contracts , as well as foreign currency translation ( fx translation ) gains and losses .\n( 3 ) includes revenues from common , preferred and convertible preferred stock , convertible corporate debt , equity-linked notes and exchange-traded and otc equity options and warrants .\n( 4 ) primarily includes revenues from crude oil , refined oil products , natural gas and other commodities trades .\n( 5 ) includes revenues from structured credit products. .",
+  "metadata": {
+    "source": "T2-RAGBench",
+    "dataset": "FinQA",
+    "company_name": "Citigroup",
+    "company_symbol": "C",
+    "report_year": 2018,
+    "company_sector": "Financials",
+    "company_industry": "Diversified Banks",
+    "file_name": "pdf/C/2018/page_175.pdf",
+    "page_number": 175
+  }
+}

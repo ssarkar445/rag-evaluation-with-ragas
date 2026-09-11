@@ -1,0 +1,15 @@
+{
+  "document_id": "finqa_test_ctx_223",
+  "text": "notes to consolidated financial statements the following table sets forth the activity related to the 2005 restructuring plan liabilities .\n( millions ) ._|    | balance at january 1 2005    | $ 2014       |\n|---:|:-----------------------------|:-------------|\n|  0 | expensed in 2005             | 141          |\n|  1 | cash payments in 2005        | -23 ( 23 )   |\n|  2 | foreign currency revaluation | -2 ( 2 )     |\n|  3 | balance at december 31 2005  | 116          |\n|  4 | expensed in 2006             | 155          |\n|  5 | cash payments in 2006        | -141 ( 141 ) |\n|  6 | foreign currency revaluation | 4            |\n|  7 | balance at december 31 2006  | 134          |\n|  8 | expensed in 2007             | 38           |\n|  9 | cash payments in 2007        | -110 ( 110 ) |\n| 10 | foreign currency revaluation | 1            |\n| 11 | balance at december 31 2007  | $ 63         |_aon 2019s unpaid restructuring liabilities are included in both accounts payable and accrued liabilities and other non-current liabilities in the consolidated statements of financial position .\naon corporation .",
+  "metadata": {
+    "source": "T2-RAGBench",
+    "dataset": "FinQA",
+    "company_name": "Aon",
+    "company_symbol": "AON",
+    "report_year": 2007,
+    "company_sector": "Financials",
+    "company_industry": "Insurance Brokers",
+    "file_name": "pdf/AON/2007/page_175.pdf",
+    "page_number": 175
+  }
+}

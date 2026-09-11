@@ -1,0 +1,15 @@
+{
+  "document_id": "finqa_test_ctx_224",
+  "text": "notes to consolidated financial statements uncertain tax provisions as described in note 1 , the company adopted fin 48 on january 1 , 2007 .\nthe effect of adopting fin 48 was not material to the company 2019s financial statements .\nthe following is a reconciliation of the company 2019s beginning and ending amount of unrecognized tax benefits ( in millions ) . ._|    | balance at january 1 2007                                    | $ 53     |\n|---:|:-------------------------------------------------------------|:---------|\n|  0 | additions based on tax positions related to the current year | 4        |\n|  1 | additions for tax positions of prior years                   | 24       |\n|  2 | reductions for tax positions of prior years                  | -6 ( 6 ) |\n|  3 | settlements                                                  | -5 ( 5 ) |\n|  4 | balance at december 31 2007                                  | $ 70     |_of the amount included in the previous table , $ 57 million of unrecognized tax benefits would impact the effective tax rate if recognized .\naon does not expect the unrecognized tax positions to change significantly over the next twelve months .\nthe company recognizes interest and penalties related to unrecognized income tax benefits in its provision for income taxes .\naon accrued potential penalties and interest of less than $ 1 million related to unrecognized tax positions during 2007 .\nin total , as of december 31 , 2007 , aon has recorded a liability for penalties and interest of $ 1 million and $ 7 million , respectively .\naon and its subsidiaries file income tax returns in the u.s .\nfederal jurisdiction as well as various state and international jurisdictions .\naon has substantially concluded all u.s .\nfederal income tax matters for years through 2004 .\nthe internal revenue service commenced an examination of aon 2019s federal u.s .\nincome tax returns for 2005 and 2006 in the fourth quarter of 2007 .\nmaterial u.s .\nstate and local income tax jurisdiction examinations have been concluded for years through 2002 .\naon has concluded income tax examinations in its primary international jurisdictions through 2000 .\naon corporation .",
+  "metadata": {
+    "source": "T2-RAGBench",
+    "dataset": "FinQA",
+    "company_name": "Aon",
+    "company_symbol": "AON",
+    "report_year": 2007,
+    "company_sector": "Financials",
+    "company_industry": "Insurance Brokers",
+    "file_name": "pdf/AON/2007/page_188.pdf",
+    "page_number": 188
+  }
+}
