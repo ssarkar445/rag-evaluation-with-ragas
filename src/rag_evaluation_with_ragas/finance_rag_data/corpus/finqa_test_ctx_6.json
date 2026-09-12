@@ -1,0 +1,15 @@
+{
+  "document_id": "finqa_test_ctx_6",
+  "text": "._|    | currency       | 2012   | 2011   | 2010   |\n|---:|:---------------|:-------|:-------|:-------|\n|  0 | real           | $ 40.4 | $ 42.4 | $ 32.5 |\n|  1 | euro           | 27.1   | 26.4   | 18.6   |\n|  2 | pound sterling | 18.5   | 17.6   | 9.0    |\n|  3 | indian rupee   | 4.3    | 3.6    | 2.6    |\n|  4 | total impact   | $ 90.3 | $ 90.0 | $ 62.7 |_the impact on earnings of the foregoing assumed 10% ( 10 % ) change in each of the periods presented would not have been significant .\nrevenue included $ 100.8 million and operating income included $ 9.0 million of unfavorable foreign currency impact during 2012 resulting from a stronger u.s .\ndollar during 2012 compared to 2011 .\nour foreign exchange risk management policy permits the use of derivative instruments , such as forward contracts and options , to reduce volatility in our results of operations and/or cash flows resulting from foreign exchange rate fluctuations .\nour international operations' revenues and expenses are generally denominated in local currency , which limits the economic exposure to foreign exchange risk in those jurisdictions .\nwe do not enter into foreign currency derivative instruments for trading purposes .\nwe have entered into foreign currency forward exchange contracts to hedge foreign currency exposure to intercompany loans .\nas of december 31 , 2012 , the notional amount of these derivatives was approximately $ 115.6 million and the fair value was nominal .\nthese derivatives are intended to hedge the foreign exchange risks related to intercompany loans , but have not been designated as hedges for accounting purposes. .",
+  "metadata": {
+    "source": "T2-RAGBench",
+    "dataset": "FinQA",
+    "company_name": "Fidelity National Information Services",
+    "company_symbol": "FIS",
+    "report_year": 2012,
+    "company_sector": "Financials",
+    "company_industry": "Transaction & Payment Processing Services",
+    "file_name": "pdf/FIS/2012/page_48.pdf",
+    "page_number": 48
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "document_id": "finqa_test_ctx_299",
+  "text": "stock total return performance the following graph compares our total return to stockholders with the returns of the standard & poor 2019s composite 500 index ( 201cs&p 500 201d ) and the dow jones us select health care providers index ( 201cpeer group 201d ) for the five years ended december 31 , 2014 .\nthe graph assumes an investment of $ 100 in each of our common stock , the s&p 500 , and the peer group on december 31 , 2009 , and that dividends were reinvested when paid. ._|    |            | 12/31/2009   | 12/31/2010   | 12/31/2011   | 12/31/2012   | 12/31/2013   | 12/31/2014   |\n|---:|:-----------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|\n|  0 | hum        | $ 100        | $ 125        | $ 201        | $ 160        | $ 244        | $ 342        |\n|  1 | s&p 500    | $ 100        | $ 115        | $ 117        | $ 136        | $ 180        | $ 205        |\n|  2 | peer group | $ 100        | $ 112        | $ 123        | $ 144        | $ 198        | $ 252        |_the stock price performance included in this graph is not necessarily indicative of future stock price performance .\ntable of contents .",
+  "metadata": {
+    "source": "T2-RAGBench",
+    "dataset": "FinQA",
+    "company_name": "Humana",
+    "company_symbol": "HUM",
+    "report_year": 2014,
+    "company_sector": "Health Care",
+    "company_industry": "Managed Health Care",
+    "file_name": "pdf/HUM/2014/page_44.pdf",
+    "page_number": 44
+  }
+}
