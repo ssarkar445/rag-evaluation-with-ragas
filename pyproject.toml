@@ -15,7 +15,6 @@ dependencies = [
     "langchain-openai>=1.6.2",
     "langchain-text-splitters>=1.1.2",
     "pydantic-settings>=2.15.0",
-    "langchain-text-splitters>=1.1.2",
     "python-dotenv>=1.2.3",
 ]
 
