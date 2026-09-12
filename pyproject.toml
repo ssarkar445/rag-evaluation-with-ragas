@@ -11,14 +11,11 @@ dependencies = [
     "chromadb>=1.5.9",
     "datasets>=5.0.1",
     "langchain>=1.4.0",
-<<<<<<< HEAD
     "langchain-chroma>=1.1.0",
     "langchain-openai>=1.6.2",
     "langchain-text-splitters>=1.1.2",
     "pydantic-settings>=2.15.0",
-=======
     "langchain-text-splitters>=1.1.2",
->>>>>>> 2abdee89ec83d70b38b8bbb7dbb7104c1571980a
     "python-dotenv>=1.2.3",
 ]
 
