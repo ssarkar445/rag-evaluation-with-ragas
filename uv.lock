@@ -2321,10 +2321,14 @@ dependencies = [
     { name = "chromadb" },
     { name = "datasets" },
     { name = "langchain" },
+<<<<<<< HEAD
     { name = "langchain-chroma" },
     { name = "langchain-openai" },
     { name = "langchain-text-splitters" },
     { name = "pydantic-settings" },
+=======
+    { name = "langchain-text-splitters" },
+>>>>>>> 2abdee89ec83d70b38b8bbb7dbb7104c1571980a
     { name = "python-dotenv" },
 ]
 
@@ -2333,10 +2337,14 @@ requires-dist = [
     { name = "chromadb", specifier = ">=1.5.9" },
     { name = "datasets", specifier = ">=5.0.1" },
     { name = "langchain", specifier = ">=1.4.0" },
+<<<<<<< HEAD
     { name = "langchain-chroma", specifier = ">=1.1.0" },
     { name = "langchain-openai", specifier = ">=1.6.2" },
     { name = "langchain-text-splitters", specifier = ">=1.1.2" },
     { name = "pydantic-settings", specifier = ">=2.15.0" },
+=======
+    { name = "langchain-text-splitters", specifier = ">=1.1.2" },
+>>>>>>> 2abdee89ec83d70b38b8bbb7dbb7104c1571980a
     { name = "python-dotenv", specifier = ">=1.2.3" },
 ]
 
