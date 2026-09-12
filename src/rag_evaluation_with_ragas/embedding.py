@@ -56,7 +56,7 @@ if __name__=="__main__":
     store.build_store()
     store.add_to_store(chunks)
     retriever = store.as_retriever()
-    results = retriever.invoke("What are the different financial Instruments?")
+    results = retriever.invoke("What were Entergy's annual long-term debt maturities for 2018 through 2022?")
 
     for idx,result in enumerate(results):
         print(f"\n Content Number={idx+1}")

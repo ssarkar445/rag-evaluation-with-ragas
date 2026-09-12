@@ -22,8 +22,8 @@ class Settings(BaseSettings):
     collection_name: str = "finance-documents"
 
     # RAG
-    chunk_size: int = 300
-    chunk_overlap: int = 50
+    chunk_size: int = 500
+    chunk_overlap: int = 75
     top_k: int = 5
 
     # Data Path
